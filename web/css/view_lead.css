@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.profile_image{
+	width:120px;
+	height:120px;
+	position:relative;
+	background: url(../image/profile_img.jpg) #f4f4f4;
+}

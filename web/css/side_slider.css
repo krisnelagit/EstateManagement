@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+#slideout {
+	position: fixed;
+	right:0;
+	top: 80px;
+	height:100px;
+	width: 35px;
+	padding: 12px 0;
+	text-align: center;
+	background: #00436b;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	z-index: 10;
+}
+#slideout_inner {
+	top: 60px;
+	position: fixed;
+	right: -250px;
+	background: #fff;
+	width: 250px;
+	border-left:thin solid #ccc;
+	border-top:thin solid #ccc;
+/*	padding: 25px;*/
+	height: 100%;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	text-align: left;
+}
+#slideout_inner textarea {
+	width: 190px;
+	height: 100px;
+	margin-bottom: 6px;
+}
+#slideout:hover {
+	right: 250px;
+}
+#slideout:hover #slideout_inner {
+	right: 0;
+}

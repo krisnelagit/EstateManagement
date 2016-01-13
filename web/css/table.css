@@ -1,0 +1,27 @@
+.CSSTableGenerator {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height:400px;
+	-moz-box-shadow: 0px 0px 7px #dcdcdc;
+	-webkit-box-shadow: 0px 0px 7px #dcdcdc;
+	box-shadow: 0px 0px 7px #dcdcdc;
+}
+.CSSTableGenerator2 {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height:auto;
+	-moz-box-shadow: 0px 0px 7px #dcdcdc;
+	-webkit-box-shadow: 0px 0px 7px #dcdcdc;
+	box-shadow: 0px 0px 7px #dcdcdc;
+}
+.CSSTableGenerator3{
+	margin: 0px;
+	padding: 0px;
+	width: 540px;
+	height:auto;
+	-moz-box-shadow: 0px 0px 7px #dcdcdc;
+	-webkit-box-shadow: 0px 0px 7px #dcdcdc;
+	box-shadow: 0px 0px 7px #dcdcdc;
+}
